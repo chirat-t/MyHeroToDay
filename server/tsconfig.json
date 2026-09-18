@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+
+    
+    "allowJs": true,
+    "checkJs": false,
+
+    
+    "outDir": "./dist",
+
+    "strict": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+
+  
+  "include": ["**/*.js"],
+  "exclude": ["node_modules", "dist"]
+}
